@@ -11,7 +11,7 @@ function main(currentTime) {
   if (gameOver) {
 
     if (confirm('You lost. Press ok to restart.')) {
-      window.location = '/'
+      window.location = 'index.html'
     }
 
     return
